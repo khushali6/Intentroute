@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+langgraph
+langchain-core
+langchain-groq
+langchain-google-genai
+mcp
+requests
+python-dotenv
+cachetools
+pytest
+pytest-asyncio
+responses
