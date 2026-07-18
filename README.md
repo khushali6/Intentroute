@@ -94,12 +94,3 @@ To see the agentic guardrails in action, paste these queries into the UI:
 3. **The "Perfect Macro" Ranking** *(Proves mathematical sorting)*
    > *"I'm trying to gain weight, I need a massive beef dish with at least 15g of protein."*
    *(Agent will score all available beef dishes and serve the one with the most optimal protein ratio).*
-
----
-
-## ☁️ Vercel Deployment
-
-This repository is pre-configured for a **Unified Vercel Deployment**.
-1. Import the repository into Vercel.
-2. Add your `GROQ_API_KEY` and `USDA_API_KEY` to the Vercel Environment Variables.
-3. The included `vercel.json` and `api/index.py` files will automatically deploy the frontend to Vercel's Edge Network and convert the FastAPI backend into a scalable Python Serverless Function.
